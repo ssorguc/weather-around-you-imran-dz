@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>WeatherArroundYou</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karma&family=Lora&family=Work+Sans&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="nav-bar">
+    <div class="logo">
+      <img src="slike/logo.png" id="logo-img">
+      <a>Weather<br>Arround<br>You</a>
+    </div>
+    <div class="nav-bar-item">
+      <p class="mjesto">Sarajevo, Federation of Bosnia and Herzegovina</p>
+    </div>
+    <div class="wrap">
+      <div class="search">
+        <input type="text" class="searchTerm" placeholder="What are you looking for?">
+        <button type="submit" class="searchButton">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+    </div>
+    <div class="nav-bar-item o-nama-nav-bar">
+      <a href="oNama.html">O nama</a>
+    </div>
+  </div>
+  <div>
+    <div class="oVremenu">
+      <a href="index.html">Danas</a>
+      <a href="poSatu.html">Po satu</a>
+      <a href="mjesecno.html">Mjesečno</a <a href="kvalitetaZraka.html">Kvaliteta Zraka</a>
+    </div>
+  </div>
+  <div class="kartica">
+    <div class="danas">
+      <p>Trenutno vrijeme</p>
+      <p id="trenutnoVrijeme">10:30</p>
+      <img id="vrijemeIkona" src="slike/logo.png" class="danasSlika">
+      <p id="temperatura">19°</p>
+      <p id="preporuka"></p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
